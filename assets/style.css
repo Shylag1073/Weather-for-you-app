@@ -23,11 +23,13 @@
   label {
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
   }
 
   .btn {
     color: white;
     background-color: blue;
+    
   }
 
   .btn:hover {
