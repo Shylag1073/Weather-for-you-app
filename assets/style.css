@@ -11,10 +11,28 @@
   }
 
   
-  h2,
+ 
   h3 {
     font-weight: 700;
-    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
     margin: 3;
     line-height: 1.25;
+  }
+
+  label {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .btn {
+    color: white;
+    background-color: blue;
+  }
+
+  .btn:hover {
+    color: blue;
+    background-color: white;
+    transform: translate(0, 0);
+    box-shadow: 2px 2px 2px;
   }
