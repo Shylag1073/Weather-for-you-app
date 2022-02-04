@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
   .hero {
@@ -38,3 +39,5 @@
     transform: translate(0, 0);
     box-shadow: 2px 2px 2px;
   }
+
+  

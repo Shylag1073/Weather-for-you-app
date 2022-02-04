@@ -17,16 +17,51 @@
     </header>
 
 
-    <main class="flex-row justify-space-between">
+    <div class="flex-row justify-space-between">
         <div class="col-12 col-md-4">
             <div class="card">
                 <h3 class="card-header text-uppercase">Search by City:</h3>
                 <form id="user-form" class="card-body">
                     <label class="form-label" for="cityname">City name</label>
-                    <input name="username" id="username" type="text" autofocus="true" class="form-input" />
+                    <input name="city" id="city" type="text" autofocus="true" class="form-input" />
                     <button type="submit" class="btn">Get weather </button>
                 </form>
             </div>
         </div>
-        <script src="./assets/script.js"></script>
+
+        <div class="historyelement"> </div>
+
+        <div class="searchresults">
+
+            <div class="headerweather">
+
+                <div id="currentcity" class="title"></div>
+
+            </div>
+
+            <div id="currentweather"></div>
+
+        </div>
+
+        <div class="forecastelement">
+            <div class="title"> 5 Day Forecast</div>
+
+            <div class="forecastinfo">
+
+                <div class="forecastcard"></div>
+                <div class="forecastcard">Card 2</div>
+                <div class="forecastcard">Card 3</div>
+                <div class="forecastcard">Card 4</div>
+                <div class="forecastcard">Card 5</div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <script src="./assets/script.js"></script>
 </body>
