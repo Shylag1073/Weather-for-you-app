@@ -40,4 +40,15 @@
     box-shadow: 2px 2px 2px;
   }
 
-  
+  #leftside{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+  }
+
+  .rightside{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
