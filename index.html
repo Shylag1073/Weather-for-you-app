@@ -11,27 +11,31 @@
     <title>Weather for you </title>
 </head>
 
-<body class="flex-column min-100-vh">
+<body>
+
     <header class="hero">
         <h1 class="app-title"><i class="fas fa-sun"></i> Todays Weather</h1>
     </header>
 
 
-    <div id="leftside" class="flex-row justify-space-between">
-        <div class="col-12 col-md-4">
-            <div class="card">
-                <h3 class="card-header text-uppercase">Search by City:</h3>
-                <form id="user-form" class="card-body">
-                    <label class="form-label" for="cityname">City name</label>
-                    <input name="city" id="city" type="text" autofocus="true" class="form-input" />
-                    <button type="submit" class="btn">Get weather </button>
-                </form>
-            </div>
+    <div class="leftside">
+
+        <div class="searchbar">
+            <div class="title">Search for a City:</div>
+            <input id="cityinput" placeholder="Austin" type="text" onfocus="this.value=''">
+            <div class="history" id="button"><button>Search</button></div>
         </div>
 
         <div class="historyelement"> </div>
-        
-<div class="rightside">
+
+
+    </div>
+
+
+
+
+
+    <div class="rightside">
 
         <div class="searchresults">
 
@@ -46,6 +50,7 @@
         </div>
 
         <div class="forecastelement">
+            
             <div class="title"> 5 Day Forecast</div>
 
             <div class="forecastinfo">
@@ -63,8 +68,8 @@
         </div>
 
     </div>
-    
-</div>
+
+
 
     <script src="./assets/script.js"></script>
 </body>
