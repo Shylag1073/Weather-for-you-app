@@ -6,7 +6,7 @@
   .hero {
       display: flex;
       justify-content: center;
-      background-color: blue;
+      background-image: linear-gradient(to right,blue,navy);
       color: white;
       font-size: larger;
   }
@@ -52,22 +52,20 @@
     width: 450px;
     height: 50px;
     font-size: xx-large;
+    border-radius: 10px ;
+    text-indent: 10px;
   }
   
   button {
     display: flex; 
-    height: 50px;
+    height: 40px;
     width: 450px;
     margin-top: 10px;
     border-radius: 15px;
-    background-color: rgb(117, 206, 235);
+    background-color: blue;
     font-size: x-large;
     font-display: center;
     text-indent: 170px;
+    color: white;
   }
-  .historyelement {
-    padding:10px;
-    border-top: 1000px;
-    border-color: darkblue;
-    border-right: 1000%;
-  }
+  
