@@ -25,20 +25,9 @@
   
   }
 
-  .btn {
-    color: white;
-    background-color: blue;
-    
-  }
-
-  .btn:hover {
-    color: blue;
-    background-color: white;
-    transform: translate(0, 0);
-    box-shadow: 2px 2px 2px;
-  }
-
+  
   #leftside{
+    float: left;
     display: flex;
     flex-direction: column;
     width: 20%;
@@ -46,7 +35,39 @@
   }
 
   .rightside{
+    float: right;
     display: flex;
     flex-direction: column;
     width: 25%;
+  }
+
+  .title{
+    display: flex;
+    line-height: 1.8;
+    font-size: xx-large;
+    font-weight: 700;
+  }
+  #cityinput {
+    display: flex;
+    width: 450px;
+    height: 50px;
+    font-size: xx-large;
+  }
+  
+  button {
+    display: flex; 
+    height: 50px;
+    width: 450px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: rgb(117, 206, 235);
+    font-size: x-large;
+    font-display: center;
+    text-indent: 170px;
+  }
+  .historyelement {
+    padding:10px;
+    border-top: 1000px;
+    border-color: darkblue;
+    border-right: 1000%;
   }
