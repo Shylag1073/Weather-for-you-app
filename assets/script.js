@@ -39,7 +39,12 @@ var getWeather = function () {
                     document.getElementById('forecastWind5').innerHTML = `Wind: ${data1.daily[5].wind_speed}`
                 })
         })
+
+
 };
+
+
+
 
 // getWeather();
 btn.addEventListener("click", getWeather)
