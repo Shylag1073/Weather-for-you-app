@@ -22,9 +22,11 @@
 
   .rightside{
     float: right;
+    align-items: right;
     display: flex;
     flex-direction: column;
     width: 65%;
+    
   }
 
   #cityinput {
@@ -34,6 +36,7 @@
     font-size: xx-large;
     border-radius: 10px ;
     text-indent: 10px;
+   
   }
   
   button {
@@ -51,7 +54,8 @@
   
 
 .currentweather{
-  margin-bottom: 20px;
+  display: flex;
+  margin-bottom: 10px;
   text-align: start;
   font-size: xx-large;
 }
@@ -63,4 +67,11 @@
    float:left; 
    height:100px; 
     margin:10px;
+  
+    
+    
+    
+}
+.fiveday{
+  display: none;
 }
